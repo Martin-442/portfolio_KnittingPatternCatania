@@ -1,0 +1,94 @@
+*:not(input) {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0; 
+    border: 0;
+}
+:root {
+    --var-border-color: grey;
+    --var-text-color: black;
+    --var-background: aliceblue;
+}
+body {
+    background-color: aliceblue;
+    color: var(--var-text-color);
+}
+
+/* A4 page ratio in pixel:*/
+/* https://codepen.io/Niklan/pen/vXzBpE */
+.page {
+    width: 1050px; /* 1050 = 21 * 50 -> 50px/cm */
+    height: 1485px;
+    background-color: #fff;
+    margin: 0 auto; 
+    padding: 10px 10px 10px 10px; /* print safe area */
+    display: grid; 
+    place-items: center center;
+}
+
+.container {
+    width: 1000px; /* 250px a 5cm = 1000px */
+    height: 1250px;  /* 250px a 5cm =  1250px */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(5, 250px);
+    place-items: stretch stretch;
+    justify-content: center;
+    gap: 0;
+    border: 1px solid red;
+}
+.item {
+    background-color: var(--var-background);
+    /* width: 250px;  /* 50px * 5cm = 250px */
+    /* height: 250px; */
+    border: 1px dotted green;
+    display: grid;
+    place-items: center center;
+    font-size: xx-large;
+}
+.navigation {
+    width: 120px;
+    margin: 20px auto;
+    background-color: lemonchiffon;
+    border-radius: 12px;
+    padding: 10px; 
+    display: flex; 
+    gap: 10px;
+}
+.navigation.hidden, 
+.navigation ul ul.hidden {
+    display: none;
+}
+.navigation .closeNav {
+    color: red;
+    margin-top: 3px;
+}
+.navigation .closeNav:hover {
+    color: grey;
+}
+.navigation ul {
+    list-style: none;
+}
+.navigation li.sub0 {
+    margin-left: 0; 
+}
+.navigation li.sub1 {
+    margin-left: 50px; 
+}
+.navigation li.sub2 {
+    margin-left: 100px; 
+}
+.navigation button {
+    /* width: 100px; */
+    padding: 3px 10px;
+}
+.navigation button:hover {
+    background-color: lavender;
+}
+.navigation li.sub0 button {
+    font-weight: 800;
+}
+.navigation li.sub1 button {
+    font-weight: 200; 
+}
