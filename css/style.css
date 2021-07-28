@@ -36,25 +36,21 @@ body {
     place-items: stretch stretch;
     justify-content: center;
     gap: 0;
-    border: 1px solid red;
+    border: 1px solid var(--var-border-color);
 }
 .item {
     background-color: var(--var-background);
-    /* width: 250px;  /* 50px * 5cm = 250px */
-    /* height: 250px; */
-    border: 1px dotted green;
-    display: grid;
-    place-items: center center;
-    font-size: xx-large;
+    border: 1px dotted var(--var-border-color);
 }
 .navigation {
-    width: 120px;
+    width: 200px;
     margin: 20px auto;
     background-color: lemonchiffon;
     border-radius: 12px;
     padding: 10px; 
     display: flex; 
     gap: 10px;
+    position: absolute;
 }
 .navigation.hidden, 
 .navigation ul ul.hidden {

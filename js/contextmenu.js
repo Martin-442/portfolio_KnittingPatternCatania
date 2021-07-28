@@ -9,7 +9,7 @@ let contextMenu = { 'catania' : [
     { 'left' : 14, 'right' : 15, 'name' : '6', "color": "00438" },
 ]};
 /* above needs to be replaced by variable schachenmayrCatania from schachenmayrCatania.js */
-
+contextMenu = schachenmayrCatania;
 
 /* create template elements from index.html div.navigation */ 
 const navigation = document.querySelector('.navigation');
@@ -63,32 +63,46 @@ function fillContextMenu(navArray) {
         } else {
             /* sub menu element where l+1=r */
             myElement.querySelector('button').addEventListener('click', contextMenuAction);
+            myElement.querySelector('button').classList.add('catania' + i.color);
         }
         myElement.querySelector('button').innerText = i.name;
     }
 }
 
 function toggleSubMenu(e) {
-    // console.log('toggleSubMenu: ', e);
-    // console.log(this.innerText);
     this.parentNode.querySelector('ul').classList.toggle('hidden');
 }
 function contextMenuAction(e) {
-    // console.log('contextMenuAction: ', e);
-    document.querySelector('.tempTarget').innerText = this.innerText;
+    // console.log('e: ', e);
+    // console.log('actualGridElement: ', actualGridElement);
+    // console.log('this.className: ', this.className);
+    // console.log('actualGridElement.srcElement.classList: ', actualGridElement.srcElement.classList);
+    actualGridElement.srcElement.className = this.className;
 }
 
-createContextMenu(contextMenu.catania);
-fillContextMenu(contextMenu.catania);
-
-console.log('navigation: ', navigation);
-
-document.querySelector('.closeNav').addEventListener('click', closeContextMenu);
+function closeAllSubMenus(navArray) { /* close sub menus */
+    for (const i of navArray) {
+        /* identify elements by their classes */
+        const myElement = navigation.querySelector('.l' + i.left + '.r' + i.right);
+        if ((i.left + 1) !== i.right) {
+            /* main menu item where l+1!=r */
+            myElement.querySelector('ul').classList.toggle('hidden');
+        }
+    }
+}
 
 function closeContextMenu() { 
     document.querySelector('.navigation').classList.add('hidden');
 }
-
 function openContextMenu() { 
     document.querySelector('.navigation').classList.remove('hidden');
 }
+
+createContextMenu(contextMenu.catania);
+fillContextMenu(contextMenu.catania);
+closeAllSubMenus(contextMenu.catania);
+closeContextMenu();
+
+// console.log('navigation: ', navigation);
+
+document.querySelector('.closeNav').addEventListener('click', closeContextMenu);
