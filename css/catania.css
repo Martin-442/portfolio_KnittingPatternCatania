@@ -1,305 +1,412 @@
+:root {
+    --var-text-on-darktones: white;
+    --var-text-on-midtones: white;
+    --var-text-on-brighttones: black;
+}
+
 .catania {
-    background-size: cover;
+    background-size: 25%; /* image repeat in one tile */
     overflow: hidden;
+    padding: 20px;
 }
 
 .catania00100 {
     background-image: url('../catania/00100.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00105 {
     background-image: url('../catania/00105.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00106 {
     background-image: url('../catania/00106.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00110 {
     background-image: url('../catania/00110.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00113 {
     background-image: url('../catania/00113.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00114 {
     background-image: url('../catania/00114.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00115 {
     background-image: url('../catania/00115.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00124 {
     background-image: url('../catania/00124.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00128 {
     background-image: url('../catania/00128.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00130 {
     background-image: url('../catania/00130.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00146 {
     background-image: url('../catania/00146.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00157 {
     background-image: url('../catania/00157.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00161 {
     background-image: url('../catania/00161.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00162 {
     background-image: url('../catania/00162.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00164 {
     background-image: url('../catania/00164.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00172 {
     background-image: url('../catania/00172.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00173 {
     background-image: url('../catania/00173.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00179 {
     background-image: url('../catania/00179.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00180 {
     background-image: url('../catania/00180.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00189 {
     background-image: url('../catania/00189.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00192 {
     background-image: url('../catania/00192.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00201 {
     background-image: url('../catania/00201.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00205 {
     background-image: url('../catania/00205.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00206 {
     background-image: url('../catania/00206.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00208 {
     background-image: url('../catania/00208.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00212 {
     background-image: url('../catania/00212.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00222 {
     background-image: url('../catania/00222.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00225 {
     background-image: url('../catania/00225.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00226 {
     background-image: url('../catania/00226.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00240 {
     background-image: url('../catania/00240.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00241 {
     background-image: url('../catania/00241.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00242 {
     background-image: url('../catania/00242.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00244 {
     background-image: url('../catania/00244.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00245 {
     background-image: url('../catania/00245.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00246 {
     background-image: url('../catania/00246.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00247 {
     background-image: url('../catania/00247.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00248 {
     background-image: url('../catania/00248.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00249 {
     background-image: url('../catania/00249.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00251 {
     background-image: url('../catania/00251.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00252 {
     background-image: url('../catania/00252.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00253 {
     background-image: url('../catania/00253.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00254 {
     background-image: url('../catania/00254.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00256 {
     background-image: url('../catania/00256.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00257 {
     background-image: url('../catania/00257.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00258 {
     background-image: url('../catania/00258.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00261 {
     background-image: url('../catania/00261.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00263 {
     background-image: url('../catania/00263.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00269 {
     background-image: url('../catania/00269.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00280 {
     background-image: url('../catania/00280.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00281 {
     background-image: url('../catania/00281.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00282 {
     background-image: url('../catania/00282.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00380 {
     background-image: url('../catania/00380.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00383 {
     background-image: url('../catania/00383.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00384 {
     background-image: url('../catania/00384.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00385 {
     background-image: url('../catania/00385.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00387 {
     background-image: url('../catania/00387.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00388 {
     background-image: url('../catania/00388.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00389 {
     background-image: url('../catania/00389.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00390 {
     background-image: url('../catania/00390.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00391 {
     background-image: url('../catania/00391.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00392 {
     background-image: url('../catania/00392.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00393 {
     background-image: url('../catania/00393.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00394 {
     background-image: url('../catania/00394.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00396 {
     background-image: url('../catania/00396.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00397 {
     background-image: url('../catania/00397.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00398 {
     background-image: url('../catania/00398.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00399 {
     background-image: url('../catania/00399.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00400 {
     background-image: url('../catania/00400.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00401 {
     background-image: url('../catania/00401.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00402 {
     background-image: url('../catania/00402.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00403 {
     background-image: url('../catania/00403.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00404 {
     background-image: url('../catania/00404.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00406 {
     background-image: url('../catania/00406.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00408 {
     background-image: url('../catania/00408.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00409 {
     background-image: url('../catania/00409.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00410 {
     background-image: url('../catania/00410.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00411 {
     background-image: url('../catania/00411.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00412 {
     background-image: url('../catania/00412.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00414 {
     background-image: url('../catania/00414.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00415 {
     background-image: url('../catania/00415.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00418 {
     background-image: url('../catania/00418.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00419 {
     background-image: url('../catania/00419.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00420 {
     background-image: url('../catania/00420.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00421 {
     background-image: url('../catania/00421.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00422 {
     background-image: url('../catania/00422.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00423 {
     background-image: url('../catania/00423.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00424 {
     background-image: url('../catania/00424.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00425 {
     background-image: url('../catania/00425.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00426 {
     background-image: url('../catania/00426.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00427 {
     background-image: url('../catania/00427.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00429 {
     background-image: url('../catania/00429.jpg');
+    color: var(--var-text-on-darktones);
 }
 .catania00430 {
     background-image: url('../catania/00430.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00431 {
     background-image: url('../catania/00431.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00432 {
     background-image: url('../catania/00432.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00433 {
     background-image: url('../catania/00433.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00434 {
     background-image: url('../catania/00434.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00435 {
     background-image: url('../catania/00435.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00436 {
     background-image: url('../catania/00436.jpg');
+    color: var(--var-text-on-brighttones);
 }
 .catania00437 {
     background-image: url('../catania/00437.jpg');
+    color: var(--var-text-on-midtones);
 }
 .catania00438 {
     background-image: url('../catania/00438.jpg');
+    color: var(--var-text-on-midtones);
 }

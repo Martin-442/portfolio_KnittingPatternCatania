@@ -78,6 +78,8 @@ function contextMenuAction(e) {
     // console.log('this.className: ', this.className);
     // console.log('actualGridElement.srcElement.classList: ', actualGridElement.srcElement.classList);
     actualGridElement.srcElement.className = this.className;
+    actualGridElement.srcElement.classList.add('catania');
+    actualGridElement.srcElement.innerText = this.className;
 }
 
 function closeAllSubMenus(navArray) { /* close sub menus */
