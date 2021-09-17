@@ -5,7 +5,7 @@ Klick on any square to choose a color of the availabel colors of the yarn assort
 The resulting 4x5 grid is supposed to be printed on A4 sheet paper for easy handling.
 
 Pure JavaScript / CSS project - reloading the page resets current selection.  
-Future improvements: 
+Future improvements:  
 - Save and Upload selected color sets
 - Multiple page creations
 - User management to save own color sets online 
